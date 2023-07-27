@@ -3,6 +3,12 @@
     <head>
         <title>Flight Simulator</title>
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        <script>
+              window.addEventListener("load", function() {
+                console.log('window loaded');
+              });
+              
+        </script>
         <script src = "scripts.js"></script>
     </head>
     <body>
@@ -25,8 +31,8 @@
             <div class="center-block">
                 <button id="up">Up</button>
                 <button id="down">Down</button>
-                <button id="right">Right</button>
                 <button id="left">Left</button>
+                <button id="right">Right</button>
                 <h3>Space Shuttle Height</h3>
                 <p id="spaceShuttleHeight">0</p><span> miles</span>
             </div>
